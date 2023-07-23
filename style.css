@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.border{
+    border-style: solid;
+    border-color: white;
+}
+
+#introduction{
+    height: 400px;
+}
+
+#introduction-content{
+    height: 100%;
+    
+    background-color: #8BC6EC;
+    background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+    
+        
+   
+}
+
+#introduction-head{
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+
+#introduction-paragraph{
+    font-size: 20px;
+    color: #ffffff;
+}
+
+#membership-card{
+    border-width: 0;
+}
+
+#membership-card:hover{
+    box-shadow: #6abed1 0px 100px 100px 1px inset;
+    transition: 0.50s;
+}
+
+
+
